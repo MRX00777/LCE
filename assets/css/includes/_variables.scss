@@ -1,29 +1,26 @@
 :root {
-	--black: #151515;
-	--white: #FFF;
-	--blue: #3F5AF3;
-	--dark: #252525;
-	--grey: #B0B287;
-	--verygrey: #696969;
+    --black: #151515;
+    --white: #FFF;
+    --blue: #3F5AF3;
+    --dark: #252525;
+    --grey: #B0B287;
+    --verygrey: #696969;
+    --wblack: #1E2228;
 }
 
 
 
-.title {
-	
-}
+.title {}
 
-.block{
-	display: none !important;
+.block {
+    display: none !important;
 }
 
 .iti {
-	width: 100% !important;
-	max-width: 100% !important;
+    width: 100% !important;
+    max-width: 100% !important;
 }
 
 @media (max-width: 575.98px) {
-	.title {
-		
-	}
+    .title {}
 }

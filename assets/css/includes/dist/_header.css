@@ -7,7 +7,8 @@
   max-width: 100%;
   z-index: 20;
   transition: 0.3s ease;
-  background: transparent !important;
+  background: rgba(0, 0, 0, 0.535);
+  backdrop-filter: blur(8px);
 }
 .header.scrolled {
   background: var(--black) !important;
@@ -83,7 +84,7 @@
 .header_nav_logo {
   width: 120px;
   height: 100px;
-  padding: 20px 0;
+  margin: 0px 0;
 }
 .header_nav_logo a {
   width: 120px;
@@ -102,6 +103,51 @@
   display: flex;
   align-items: center;
   gap: 55px;
+}
+.header_nav_right_links a {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: 400ms;
+}
+.header_nav_right_links a.active {
+  color: var(--blue);
+}
+.header_nav_right_links a:hover {
+  color: var(--blue);
+}
+.header_nav_right_tel {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.header_nav_right_tel i {
+  color: var(--blue);
+  background: white;
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_nav_right_tel div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.header_nav_right_tel div p {
+  font-size: 14px;
+  color: var(--grey);
+}
+.header_nav_right_tel div a {
+  font-size: 18px;
+  font-weight: 700;
+  color: white;
+  transition: 400ms;
+}
+.header_nav_right_tel div a:hover {
+  color: var(--blue);
 }
 
 .burger {

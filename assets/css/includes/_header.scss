@@ -8,7 +8,9 @@
     z-index: 20;
     // padding: 25px 0;
     transition: 0.3s ease;
-    background: transparent !important;
+    background: rgba(0, 0, 0, 0.535);
+    backdrop-filter: blur(8px);
+
 
 
     &.scrolled {
@@ -22,6 +24,7 @@
         justify-content: space-between;
         width: 100%;
         border-bottom: 1px var(--grey) solid;
+
 
         &_first {
             display: flex;
@@ -108,7 +111,7 @@
         &_logo {
             width: 120px;
             height: 100px;
-            padding: 20px 0;
+            margin: 0px 0;
 
             a {
                 width: 120px;
@@ -130,6 +133,60 @@
                 display: flex;
                 align-items: center;
                 gap: 55px;
+
+                a {
+                    font-size: 14px;
+                    font-weight: 600;
+                    text-transform: uppercase;
+                    transition: 400ms;
+
+                    &.active {
+                        color: var(--blue);
+                    }
+
+                    &:hover {
+                        color: var(--blue);
+                    }
+                }
+            }
+
+            &_tel {
+                display: flex;
+                align-items: center;
+                gap: 15px;
+
+                i {
+                    color: var(--blue);
+                    background: white;
+                    height: 45px;
+                    width: 45px;
+                    border-radius: 50%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+
+                    p {
+                        font-size: 14px;
+                        color: var(--grey);
+                    }
+
+                    a {
+                        font-size: 18px;
+                        font-weight: 700;
+                        color: white;
+                        transition: 400ms;
+
+                        &:hover {
+                            color: var(--blue);
+                        }
+                    }
+                }
             }
         }
     }

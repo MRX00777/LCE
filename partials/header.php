@@ -60,6 +60,7 @@
                             <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
                             <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
                             <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
+                            <li><a href=""><i class="fa-brands fa-square-whatsapp"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -70,7 +71,7 @@
                 </div>
                 <div class="header_nav_right">
                     <ul class="header_nav_right_links">
-                        <li><a href="">Дом</a></li>
+                        <li><a class="active" href="">Дом</a></li>
                         <li><a href="">Услуги</a></li>
                         <li><a href="">О компаний</a></li>
                         <li><a href="">Блог</a></li>
@@ -84,5 +85,6 @@
                         </div>
                     </div>
                 </div>
+
             </div>
         </header>
