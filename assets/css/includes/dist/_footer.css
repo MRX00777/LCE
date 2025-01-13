@@ -228,11 +228,11 @@
   align-items: center;
   justify-content: end;
   flex-wrap: wrap;
-  row-gap: 40px;
+  row-gap: 30px;
+  column-gap: 40px;
 }
 .footer_bottom_content ul a {
-  padding: 0 20px;
-  border-right: 1px var(--white) solid;
+  font-size: 16px;
 }
 .footer_bottom_content ul a:last-child {
   padding: 0;

@@ -62,10 +62,10 @@
 
        <div class="footer_bottom">
            <div class="footer_bottom_content container-fluid">
-               <p>© 2024 Рунок. Все права защищены.</p>
+               <p>© 2025 LCE. Все права защищены.</p>
                <ul>
-                   <li><a href="">Безопасность</a></li>
-                   <li><a href="">Политика конфиденциальности и использования файлов cookie/a></li>
+                   <li><a href="">Безопасность</a></li>|
+                   <li><a href="">Политика конфиденциальности и использования файлов cookiea></li>|
                    <li><a href="">Условия предоставления услуг</a></li>
                </ul>
            </div>
