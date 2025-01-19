@@ -16,6 +16,11 @@
     &.scrolled {
         background: var(--black) !important;
 
+        .header_info {
+            height: 0;
+            overflow: hidden;
+            border: none;
+        }
     }
 
     &_info {
@@ -24,6 +29,7 @@
         justify-content: space-between;
         width: 100%;
         border-bottom: 1px var(--grey) solid;
+        transition: 700ms;
 
 
         &_first {

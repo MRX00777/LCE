@@ -30,7 +30,7 @@ include 'partials/header.php' ?>
                     <div class="top__row">
                         <div class="top__row__left">
                             <div class="top__row__left-title">
-                                Железнодорожные грузоперевозки
+                                Leader Coding Enterprises
                             </div>
                             <a href="" class="top__row__left-link">
                                 подробнее
@@ -40,7 +40,8 @@ include 'partials/header.php' ?>
                             </a>
                         </div>
                         <div class="top__row__right">
-                            Предоставление вагонов в пользование
+                            Креативный дизайн <br>
+                            <i class="fa-solid fa-palette"></i>
                         </div>
                     </div>
 
@@ -55,7 +56,7 @@ include 'partials/header.php' ?>
                     <div class="top__row">
                         <div class="top__row__left">
                             <div class="top__row__left-title">
-                                Железнодорожные грузоперевозки
+                                Leader Coding Enterprises
                             </div>
                             <a href="" class="top__row__left-link">
                                 подробнее
@@ -65,7 +66,8 @@ include 'partials/header.php' ?>
                             </a>
                         </div>
                         <div class="top__row__right">
-                            Предоставление вагонов в пользование
+                            Идеальный код <br>
+                            <i class="fa-solid fa-code"></i>
                         </div>
                     </div>
 
@@ -80,7 +82,7 @@ include 'partials/header.php' ?>
                     <div class="top__row">
                         <div class="top__row__left">
                             <div class="top__row__left-title">
-                                Железнодорожные грузоперевозки
+                                Leader Coding Enterprises
                             </div>
                             <a href="" class="top__row__left-link">
                                 подробнее
@@ -90,7 +92,8 @@ include 'partials/header.php' ?>
                             </a>
                         </div>
                         <div class="top__row__right">
-                            Предоставление вагонов в пользование
+                            Современные решения <br>
+                            <i class="fa-regular fa-lightbulb"></i>
                         </div>
                     </div>
 
@@ -116,7 +119,7 @@ include 'partials/header.php' ?>
                 <div></div>
                 <p>About Our Work</p>
             </div>
-            <h3 class="work_info-title">
+            <h3 style="text-align: left;" class="section-title">
                 Our Main Goal to Satisfied
                 local & Global Clients
             </h3>
@@ -169,7 +172,7 @@ include 'partials/header.php' ?>
                 <div></div>
                 <p>About Company</p>
             </div>
-            <h3 class="about_info-title">Our Main Goal to Satisfied
+            <h3 style="text-align: left;" class="section-title">Our Main Goal to Satisfied
                 local & Global Clients</h3>
             <div class="about_info_buttons">
                 <button class="tablinks active" onclick="openCity(event, 'London')">Наше миссия</button>
@@ -230,7 +233,7 @@ include 'partials/header.php' ?>
             <p>Члены команды</p>
             <div class="friends_teg-right"></div>
         </div>
-        <div class="friends-title">
+        <div class="section-title">
             Профессионалы своего дела!
         </div>
         <div class="friends_cards">
@@ -301,6 +304,287 @@ include 'partials/header.php' ?>
         </div>
     </section>
 
+    <section class="prices container-fluid">
+        <div class="section-title">
+            Прайс для наших клиентов
+        </div>
+
+        <!-- Swiper -->
+        <div class="prices_swiper swiper ">
+            <div class="prices_swiper_wrapper swiper-wrapper">
+                <div class="prices_swiper_wrapper_card swiper-slide">
+
+
+                    <div class="tarif">
+                        <p>Basic Plan</p>
+                        <span>FOR SMALL SIZE BUSINESS</span>
+                    </div>
+
+                    <div class="money">
+                        $45
+                    </div>
+
+                    <ul class="details">
+                        <li>
+                            <p>HTML & CSS3</p>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                        <li>
+                            <p>Boostrap v5</p>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                        <li>
+                            <p>Responsive Layout</p>
+                            <i class="fa-solid fa-xmark"></i>
+                        </li>
+                        <li>
+                            <p>Cross-Browser Support</p>
+                            <i class="fa-solid fa-xmark"></i>
+                        </li>
+                    </ul>
+
+                    <button class="order">Заказать</button>
+                </div>
+                <div class="prices_swiper_wrapper_card swiper-slide">
+
+
+                    <div class="tarif">
+                        <p>Basic Plan</p>
+                        <span>FOR SMALL SIZE BUSINESS</span>
+                    </div>
+
+                    <div class="money">
+                        $45
+                    </div>
+
+                    <ul class="details">
+                        <li>
+                            <p>HTML & CSS3</p>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                        <li>
+                            <p>Boostrap v5</p>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                        <li>
+                            <p>Responsive Layout</p>
+                            <i class="fa-solid fa-xmark"></i>
+                        </li>
+                        <li>
+                            <p>Cross-Browser Support</p>
+                            <i class="fa-solid fa-xmark"></i>
+                        </li>
+                    </ul>
+
+                    <button class="order">Заказать</button>
+                </div>
+                <div class="prices_swiper_wrapper_card swiper-slide">
+
+
+                    <div class="tarif">
+                        <p>Basic Plan</p>
+                        <span>FOR SMALL SIZE BUSINESS</span>
+                    </div>
+
+                    <div class="money">
+                        $45
+                    </div>
+
+                    <ul class="details">
+                        <li>
+                            <p>HTML & CSS3</p>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                        <li>
+                            <p>Boostrap v5</p>
+                            <i class="fa-solid fa-check"></i>
+                        </li>
+                        <li>
+                            <p>Responsive Layout</p>
+                            <i class="fa-solid fa-xmark"></i>
+                        </li>
+                        <li>
+                            <p>Cross-Browser Support</p>
+                            <i class="fa-solid fa-xmark"></i>
+                        </li>
+                    </ul>
+
+                    <button class="order">Заказать</button>
+                </div>
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+
+        <!-- Swiper JS -->
+    </section>
+
+    <section class="portfolio container-fluid">
+        <div class="portfolio_teg">
+            <div class="portfolio_teg-left"></div>
+            <p>Кейсы Студий</p>
+            <div class="portfolio_teg-right"></div>
+        </div>
+
+        <div class="section-title">
+            Посмотрите наши проекты
+        </div>
+
+        <div class="portfolio_cards">
+            <div class="portfolio_cards_card">
+                <div class="portfolio_cards_card-img">
+                    <img src="/assets/images/index/portfolio.png" alt="">
+                    <i class="fa-solid fa-arrow-up-right-dots"></i>
+                </div>
+                <div class="portfolio_cards_card-name">
+                    <span>01</span>
+                    <h4>Medical Application Design</h4>
+                </div>
+            </div>
+            <div class="portfolio_cards_card">
+                <div class="portfolio_cards_card-img">
+                    <img src="/assets/images/index/portfolio.png" alt="">
+                    <i class="fa-solid fa-arrow-up-right-dots"></i>
+                </div>
+                <div class="portfolio_cards_card-name">
+                    <span>01</span>
+                    <h4>Medical Application Design</h4>
+                </div>
+            </div>
+            <div class="portfolio_cards_card">
+                <div class="portfolio_cards_card-img">
+                    <img src="/assets/images/index/portfolio.png" alt="">
+                    <i class="fa-solid fa-arrow-up-right-dots"></i>
+                </div>
+                <div class="portfolio_cards_card-name">
+                    <span>01</span>
+                    <h4>Medical Application Design</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="request container-fluid">
+        <div class="request-img">
+            <img src="/assets/images/index/request.webp" alt="">
+        </div>
+        <div class="request_info">
+            <div class="request_info_teg">
+                <div></div>
+                <p>Мы можем помочь вам</p>
+            </div>
+            <div style="text-align: left;" class="section-title">Отправьте заявку</div>
+            <form action="" method="">
+                <div class="name">
+                    <p>Имя</p>
+                    <input type="text" placeholder="Введите имя" required>
+                </div>
+                <div class="input" style="margin-bottom: 25px;">
+                    <label for="">Номер телефона</label>
+                    <div class="input__content" style="color: #1B1B1B;">
+                        <input type="tel" id="telIndex" class="telCountry" required>
+                        <input class="info__fill_number" type="hidden" name="phone">
+                    </div>
+                    <p>По этому номеру с вами свяжется наш специалист</p>
+                </div>
+
+                <button>Отправить</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="blog container-fluid">
+        <div class="blog_teg">
+            <div class="blog_teg-left"></div>
+            <p>Блог и Новости</p>
+            <div class="blog_teg-right"></div>
+        </div>
+        <div class="section-title">
+            Наши последние новости и статьи
+        </div>
+        <div class="blog_cards">
+            <div class="blog_cards_card">
+                <div class="blog_cards_card-img">
+                    <img src="/assets/images/slider-bg/1.webp" alt="">
+                    <span></span>
+                </div>
+                <div class="blog_cards_card-info">
+                    <div class="time">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>25 June, 2024</span>
+                    </div>
+                    <a href="" class="title">
+                        Inside Hutch’s Playbook for Crafting Future-Centric Digital Experiences
+                    </a>
+                    <a href="" class="button">
+                        <p>Читать далее</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="blog_cards_card">
+                <div class="blog_cards_card-img">
+                    <img src="/assets/images/slider-bg/1.webp" alt="">
+                    <span></span>
+                </div>
+                <div class="blog_cards_card-info">
+                    <div class="time">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>25 June, 2024</span>
+                    </div>
+                    <a href="" class="title">
+                        Inside Hutch’s Playbook for Crafting Future-Centric Digital Experiences
+                    </a>
+                    <a href="" class="button">
+                        <p>Читать далее</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="blog_cards_card">
+                <div class="blog_cards_card-img">
+                    <img src="/assets/images/slider-bg/1.webp" alt="">
+                    <span></span>
+                </div>
+                <div class="blog_cards_card-info">
+                    <div class="time">
+                        <i class="fa-regular fa-calendar"></i>
+                        <span>25 June, 2024</span>
+                    </div>
+                    <a href="" class="title">
+                        Inside Hutch’s Playbook for Crafting Future-Centric Digital Experiences
+                    </a>
+                    <a href="" class="button">
+                        <p>Читать далее</p>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slider_line2 swiper">
+
+        <div class="swiper-wrapper">
+            <?php for ($i = 0; $i < 20; $i++) : ?>
+            <div class="swiper-slide">
+                <div>
+                    <i class="fa-regular fa-star"></i>
+                    <p>Web Development</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div>
+                    <i class="fa-solid fa-star"></i>
+                    <p style="color: white;">Latest Projects</p>
+                </div>
+            </div>
+            <?php endfor ?>
+        </div>
+    </section>
+
 </main>
+
+
+
 
 <?php include 'partials/footer.php' ?>

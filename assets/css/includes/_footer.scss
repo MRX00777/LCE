@@ -1,6 +1,5 @@
 .footer {
     background: var(--black);
-    padding-bottom: 50px;
 
     &_content {
         display: flex;
@@ -204,7 +203,6 @@
                 gap: 30px;
 
                 input {
-                    border-radius: 8px;
                     padding: 15px;
                     font-size: 16px;
                     background: var(--wblack);
@@ -217,6 +215,7 @@
                     display: flex;
                     gap: 5px;
                     align-items: start;
+                    cursor: pointer;
 
                     input {
                         width: 20px;
@@ -233,12 +232,18 @@
                     width: 100%;
                     padding: 15px 30px;
                     background: var(--blue);
+                    color: var(--white);
                     font-size: 16px;
                     font-weight: 600;
                     text-align: center;
                     border: none;
                     outline: none;
-                    border-radius: 8px;
+                    cursor: pointer;
+                    transition: 300ms;
+
+                    &:hover {
+                        background: var(--wblack);
+                    }
                 }
             }
         }

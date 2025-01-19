@@ -76,3 +76,47 @@ var swiper = new Swiper(".slider_line", {
     }
   }
 });
+var swiper = new Swiper(".slider_line2", {
+  slidesPerView: "auto",
+  spaceBetween: 100,
+  loop: true,
+  speed: 8000,
+  autoplay: {
+    delay: 0,
+    disableOnInteraction: false
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true
+  },
+  breakpoints: {
+    1000: {
+      spaceBetween: 100
+    },
+    // при ширине экрана менее 800px
+    800: {
+      spaceBetween: 80
+    },
+    // при ширине экрана менее 450px
+    320: {
+      spaceBetween: 60
+    }
+  }
+});
+var swiper = new Swiper(".prices_swiper", {
+  effect: "coverflow",
+  initialSlide: 1,
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: "auto",
+  coverflowEffect: {
+    rotate: 50,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: true
+  },
+  pagination: {
+    el: ".swiper-pagination"
+  }
+});

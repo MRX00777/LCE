@@ -13,12 +13,18 @@
 .header.scrolled {
   background: var(--black) !important;
 }
+.header.scrolled .header_info {
+  height: 0;
+  overflow: hidden;
+  border: none;
+}
 .header_info {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 100%;
   border-bottom: 1px var(--grey) solid;
+  transition: 700ms;
 }
 .header_info_first {
   display: flex;
