@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="/assets/libraries/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/16.0.0/css/intlTelInput.css">
+    <link href="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/snow.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/global.css">
 
     <?php
@@ -79,12 +80,21 @@
                     </ul>
                     <div class="header_nav_right_tel">
                         <i class="fa-solid fa-phone"></i>
-                        <div>
+                        <div class="telephone">
                             <p>Звоните 24/7 в любое время</p>
                             <a href="tel:+998999406302">+998 (99) 940-63-02</a>
+                        </div>
+                        <div class="burger" onclick="toggleMobileMenu()">
+                            <div class="burger__wrapper">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
                         </div>
                     </div>
                 </div>
 
             </div>
+
+
         </header>

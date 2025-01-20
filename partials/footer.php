@@ -1,4 +1,4 @@
-   <footer class="footer">
+   <footer class="footer  block">
        <div class="footer_content container-fluid">
            <div class="footer_content_first">
                <a href="/" class="footer_content_first-logo"><img src="/assets/icons/logo.png" alt="logo"></a>
@@ -76,20 +76,15 @@
 
 
    <script>
-let lang = document.querySelector(".lang");
-const handleLang = () => {
-    lang.classList.toggle("active");
-};
-
-let mobileMenu = document.querySelector(".header__wrapper__nav");
+let mobileMenu = document.querySelector(".header_nav_right_links");
 let burger = document.querySelector(".burger");
-const headerWrapper = document.querySelector('.header__wrapper__nav');
+// const headerWrapper = document.querySelector('.header__wrapper__nav');
 
-headerWrapper.addEventListener('click', function(event) {
-    if (event.target == headerWrapper) {
-        toggleMobileMenu()
-    }
-})
+// headerWrapper.addEventListener('click', function(event) {
+//     if (event.target == headerWrapper) {
+//         toggleMobileMenu()
+//     }
+// })
 
 
 const toggleMobileMenu = () => {
@@ -98,6 +93,8 @@ const toggleMobileMenu = () => {
     document.body.classList.toggle("no-scroll");
 };
    </script>
+
+
    <!-- /.wrapper -->
    <script src="/assets/libraries/jquery/jquery.min.js"></script>
    <script src="/assets/libraries/swiper/swiper-bundle.min.js"></script>
@@ -111,6 +108,11 @@ const toggleMobileMenu = () => {
    <script src="/assets/js/lazyImage.js"></script>
    <script src="/assets/js/telInput.js"></script>
    <script src="/assets/js/index.js"></script>
+
+   <script src="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/Snow.min.js"></script>
+   <script>
+new Snow();
+   </script>
 
 
    </body>

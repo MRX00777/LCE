@@ -17,7 +17,7 @@ include 'partials/header.php' ?>
 
 
 
-    <section class="swiper main__slider ">
+    <section class="swiper main__slider">
         <div class="border border1"></div>
         <div class="border border2"></div>
         <div class="border border3"></div>
@@ -40,6 +40,7 @@ include 'partials/header.php' ?>
                             </a>
                         </div>
                         <div class="top__row__right">
+
                             Креативный дизайн <br>
                             <i class="fa-solid fa-palette"></i>
                         </div>
@@ -110,7 +111,7 @@ include 'partials/header.php' ?>
         </div>
     </section>
 
-    <section class="work container-fluid">
+    <section class="work container-fluid block">
         <div class="work_image">
             <img src="/assets/images/index/work-img1.png" alt="work1">
         </div>
@@ -146,7 +147,7 @@ include 'partials/header.php' ?>
         </div>
     </section>
 
-    <section class="slider_line swiper">
+    <section class="slider_line swiper block">
 
         <div class="swiper-wrapper">
             <?php for ($i = 0; $i < 20; $i++) : ?>
@@ -166,7 +167,7 @@ include 'partials/header.php' ?>
         </div>
     </section>
 
-    <section class="about container-fluid">
+    <section class="about container-fluid block">
         <div class="about_info">
             <div class="about_info-teg">
                 <div></div>
@@ -227,7 +228,7 @@ include 'partials/header.php' ?>
         </div>
     </section>
 
-    <section class="friends container-fluid">
+    <section class="friends container-fluid block">
         <div class="friends_teg">
             <div class="friends_teg-left"></div>
             <p>Члены команды</p>
@@ -304,7 +305,7 @@ include 'partials/header.php' ?>
         </div>
     </section>
 
-    <section class="prices container-fluid">
+    <section class="prices container-fluid block">
         <div class="section-title">
             Прайс для наших клиентов
         </div>
@@ -418,7 +419,7 @@ include 'partials/header.php' ?>
         <!-- Swiper JS -->
     </section>
 
-    <section class="portfolio container-fluid">
+    <section class="portfolio container-fluid block">
         <div class="portfolio_teg">
             <div class="portfolio_teg-left"></div>
             <p>Кейсы Студий</p>
@@ -463,7 +464,7 @@ include 'partials/header.php' ?>
         </div>
     </section>
 
-    <section class="request container-fluid">
+    <section class="request container-fluid block">
         <div class="request-img">
             <img src="/assets/images/index/request.webp" alt="">
         </div>
@@ -492,7 +493,7 @@ include 'partials/header.php' ?>
         </div>
     </section>
 
-    <section class="blog container-fluid">
+    <section class="blog container-fluid block">
         <div class="blog_teg">
             <div class="blog_teg-left"></div>
             <p>Блог и Новости</p>
@@ -562,7 +563,7 @@ include 'partials/header.php' ?>
         </div>
     </section>
 
-    <section class="slider_line2 swiper">
+    <section class="slider_line2 swiper block">
 
         <div class="swiper-wrapper">
             <?php for ($i = 0; $i < 20; $i++) : ?>
