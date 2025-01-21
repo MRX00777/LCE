@@ -111,7 +111,7 @@ include 'partials/header.php' ?>
         </div>
     </section>
 
-    <section class="work container-fluid block">
+    <section class="work container-fluid ">
         <div class="work_image">
             <img src="/assets/images/index/work-img1.png" alt="work1">
         </div>

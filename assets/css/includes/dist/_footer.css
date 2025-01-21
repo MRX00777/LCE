@@ -2,11 +2,10 @@
   background: var(--black);
 }
 .footer_content {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   column-gap: 50px;
-  row-gap: 30px;
-  flex-wrap: wrap;
+  row-gap: 50px;
   padding: 130px 0;
 }
 .footer_content_first {
@@ -218,8 +217,7 @@
   padding: 40px 0;
   display: flex;
   justify-content: space-between;
-  column-gap: 50px;
-  row-gap: 30px;
+  gap: 30px;
 }
 .footer_bottom_content p {
   font-size: 16px;
@@ -241,4 +239,107 @@
 .footer_bottom_content ul a:last-child {
   padding: 0;
   border: none;
+}
+
+@media (max-width: 1130px) {
+  .footer_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 80px 0;
+  }
+
+  .footer_content_first {
+    max-width: 100%;
+  }
+
+  .footer_content_second {
+    max-width: 100%;
+  }
+
+  .footer_content_three {
+    max-width: 100%;
+  }
+
+  .footer_content_four {
+    max-width: 100%;
+  }
+}
+@media (max-width: 1050px) {
+  .footer_bottom_content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer_bottom_content p {
+    text-align: center;
+  }
+  .footer_bottom_content ul {
+    justify-content: center;
+  }
+
+  .footer_content {
+    padding: 70px 0;
+  }
+}
+@media (max-width: 650px) {
+  .footer_content {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 35px;
+    padding: 50px 0;
+  }
+
+  .footer_content_first p {
+    margin-bottom: 25px;
+  }
+
+  .footer_content_first-logo {
+    width: 90px;
+    height: 80px;
+    margin-bottom: 25px;
+  }
+  .footer_content_first-logo img {
+    width: 90px;
+    height: 80px;
+  }
+
+  .footer_content_second {
+    gap: 45px;
+  }
+
+  .footer_content_three {
+    gap: 45px;
+  }
+
+  .footer_content_four {
+    gap: 45px;
+  }
+
+  .footer_content_second-title {
+    font-size: 22px;
+  }
+
+  .footer_content_three-title {
+    font-size: 22px;
+  }
+
+  .footer_content_four-title {
+    font-size: 22px;
+  }
+}
+@media (max-width: 500px) {
+  .footer_bottom_content ul {
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+
+  .footer_content_first-logo {
+    width: 74px;
+    height: 65px;
+    margin-bottom: 20px;
+  }
+  .footer_content_first-logo img {
+    width: 74px;
+    height: 65px;
+  }
 }

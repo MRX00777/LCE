@@ -232,15 +232,18 @@ main {
     }
 }
 
-@media (max-width: 1300px) {}
+@media (max-width: 1300px) {
+    section {
+        margin-bottom: 110px;
+    }
+}
 
 @media (max-width: 1200px) {
-    .pages__name {
-        display: none;
-        width: 0;
-        height: 0;
-        opacity: 0;
+    .section-title {
+        font-size: 40px;
     }
+
+
 }
 
 @media (max-width: 1060px) {
@@ -278,6 +281,17 @@ main {
 
 }
 
+
+@media (max-width: 1000px) {
+    .section-title {
+        font-size: 32px;
+    }
+
+    section {
+        margin-bottom: 80px;
+    }
+}
+
 @media (max-width: 992px) {
 
 
@@ -294,7 +308,10 @@ main {
 @media (max-width: 800px) {
     .tab__nav--scrollable {
         gap: 25px;
+    }
 
+    section {
+        margin-bottom: 60px;
     }
 }
 
@@ -316,6 +333,10 @@ main {
 @media (max-width: 450px) {
     main {
         margin-top: 80px;
+    }
+
+    .section-title {
+        font-size: 30px;
     }
 }
 

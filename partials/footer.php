@@ -1,4 +1,4 @@
-   <footer class="footer  block">
+   <footer class="footer ">
        <div class="footer_content container-fluid">
            <div class="footer_content_first">
                <a href="/" class="footer_content_first-logo"><img src="/assets/icons/logo.png" alt="logo"></a>
