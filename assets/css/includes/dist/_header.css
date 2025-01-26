@@ -116,6 +116,7 @@
   font-weight: 600;
   text-transform: uppercase;
   transition: 400ms;
+  color: var(--white);
 }
 .header_nav_right_links a.active {
   color: var(--blue);
@@ -210,12 +211,24 @@
 
 @media (max-width: 1400px) {
   .header_nav_right {
-    gap: 100px;
+    gap: 50px;
+  }
+
+  .header_nav_right_links {
+    gap: 50px;
   }
 }
 @media (max-width: 1300px) {
   body {
     position: relative;
+  }
+
+  .header_nav_right {
+    gap: 50px;
+  }
+
+  .header_nav_right_links {
+    gap: 40px;
   }
 }
 @media (max-width: 1200px) {

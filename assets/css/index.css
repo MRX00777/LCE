@@ -578,6 +578,10 @@ body {
   width: 100%;
 }
 
+.portfolio {
+  display: flex;
+  flex-direction: column;
+}
 .portfolio_teg {
   font-size: 14px;
   font-weight: 700;
@@ -797,6 +801,10 @@ body {
   background: var(--wblack);
 }
 
+.blog {
+  display: flex;
+  flex-direction: column;
+}
 .blog_teg {
   font-size: 14px;
   font-weight: 700;

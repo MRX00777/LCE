@@ -721,6 +721,8 @@ body {
 // section portfolio start
 
 .portfolio {
+    display: flex;
+    flex-direction: column;
 
     &_teg {
         font-size: 14px;
@@ -1003,6 +1005,8 @@ body {
 // section blog start
 
 .blog {
+    display: flex;
+    flex-direction: column;
 
     &_teg {
         font-size: 14px;

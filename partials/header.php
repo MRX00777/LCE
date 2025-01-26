@@ -28,9 +28,17 @@
         case 'index':
             echo '<link rel="stylesheet" href="/assets/css/index.css">';
             break;        
-    }
+        case 'blogs':
+            echo '<link rel="stylesheet" href="/assets/css/pages/blogs.css">';
+            echo '<link rel="stylesheet" href="/assets/css/index.css">';
+            break;        
+        case 'blogs-details':
+            echo '<link rel="stylesheet" href="/assets/css/index.css">';
+            echo '<link rel="stylesheet" href="/assets/css/pages/blogs-details.css">';
+            break;        
+    };
     ?>
-    <title><?= $title ?></title>
+    <title><?= $title ;?></title>
 </head>
 
 <body>
@@ -72,11 +80,12 @@
                 </div>
                 <div class="header_nav_right">
                     <ul class="header_nav_right_links">
-                        <li><a class="active" href="">Дом</a></li>
-                        <li><a href="">Услуги</a></li>
-                        <li><a href="">О компаний</a></li>
-                        <li><a href="">Блог</a></li>
-                        <li><a href="">Контакты</a></li>
+                        <li><a class="<?php echo ($page == 'index') ? 'active' : ''; ?>" href="/">Главная</a></li>
+                        <li><a class="<?=$page == 'servise' ? 'active' : '';?>" href="">Услуги</a></li>
+                        <li><a class="<?=$page == 'portfolio' ? 'active' : '';?>" href="">Портфолио</a></li>
+                        <li><a class="<?=$page == 'about' ? 'active' : '';?>" href="">О компаний</a></li>
+                        <li><a class="<?=$page == 'blogs' ? 'active' : '';?>" href="/pages/blogs.php">Блог</a></li>
+                        <li><a class="<?=$page == 'contacts' ? 'active' : '';?>" href="">Контакты</a></li>
                     </ul>
                     <div class="header_nav_right_tel">
                         <i class="fa-solid fa-phone"></i>

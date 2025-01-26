@@ -7,7 +7,7 @@ $desc = '';
 $title = 'Главная';
 $page = 'index';
 
-include 'partials/header.php' ?>
+include "partials/header.php" ?>
 
 <main class='main' style='margin-top: 0px !important;'>
     <!-- <svg>
@@ -462,6 +462,11 @@ include 'partials/header.php' ?>
                 </div>
             </div>
         </div>
+
+        <a href="" class="button button-right button-width">
+            <p>В Портфолио</p>
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
     </section>
 
     <section class="request container-fluid">
@@ -561,6 +566,11 @@ include 'partials/header.php' ?>
                 </div>
             </div>
         </div>
+
+        <a href="/pages/blogs.php" class="button button-right .button-width">
+            <p>В блог</p>
+            <i class="fa-solid fa-arrow-right"></i>
+        </a>
     </section>
 
     <section class="slider_line2 swiper">
@@ -587,4 +597,4 @@ include 'partials/header.php' ?>
 
 
 
-<?php include 'partials/footer.php' ?>
+<?php include "partials/footer.php" ?>
