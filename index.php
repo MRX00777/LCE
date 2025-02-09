@@ -167,7 +167,7 @@ include "partials/header.php" ?>
         </div>
     </section>
 
-    <section class="about container-fluid">
+    <section id="about" class="about container-fluid">
         <div class="about_info">
             <div class="about_info-teg">
                 <div></div>
@@ -305,7 +305,7 @@ include "partials/header.php" ?>
         </div>
     </section>
 
-    <section class="prices">
+    <section id="servis" class="prices">
         <div class="section-title">
             Прайс для наших клиентов
         </div>
@@ -419,7 +419,7 @@ include "partials/header.php" ?>
         <!-- Swiper JS -->
     </section>
 
-    <section class="portfolio container-fluid">
+    <section id="portfolio" class="portfolio container-fluid">
         <div class="portfolio_teg">
             <div class="portfolio_teg-left"></div>
             <p>Кейсы Студий</p>
@@ -469,7 +469,7 @@ include "partials/header.php" ?>
         </a>
     </section>
 
-    <section class="request container-fluid">
+    <section id="request" class="request container-fluid">
         <div class="request-img">
             <img src="/assets/images/index/request.webp" alt="">
         </div>
@@ -479,16 +479,16 @@ include "partials/header.php" ?>
                 <p>Мы можем помочь вам</p>
             </div>
             <div style="text-align: left;" class="section-title">Отправьте заявку</div>
-            <form action="" method="">
+            <form action="assets/libraries/leadersend/zayavka.php" method="POST">
                 <div class="name">
                     <p>Имя</p>
-                    <input type="text" placeholder="Введите имя" required>
+                    <input type="text" name="name" placeholder="Введите имя" required>
                 </div>
                 <div class="input" style="margin-bottom: 25px;">
                     <label for="">Номер телефона</label>
                     <div class="input__content" style="color: #1B1B1B;">
                         <input type="tel" id="telIndex" class="telCountry" required>
-                        <input class="info__fill_number" type="hidden" name="phone">
+                        <input class="info__fill_number" required type="hidden" name="tel">
                     </div>
                     <p>По этому номеру с вами свяжется наш специалист</p>
                 </div>

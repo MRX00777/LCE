@@ -1,4 +1,4 @@
-   <footer class="footer ">
+   <footer id="footer" class="footer ">
        <div class="footer_content container-fluid">
            <div class="footer_content_first">
                <a href="/" class="footer_content_first-logo"><img src="/assets/icons/logo.png" alt="logo"></a>
@@ -62,7 +62,7 @@
 
        <div class="footer_bottom">
            <div class="footer_bottom_content container-fluid">
-               <p>© 2025 Leader Coding Enterprises. Все права защищены.</p>
+               <p>© 28.01.2025 <a href="https://t.me/Abduraxmonovich_Y">Шарофов Ёкуб Абдурахмонович</a></p>
                <ul>
                    <li><a href="">Безопасность</a></li>|
                    <li><a href="">Условия предоставления услуг</a></li>
@@ -107,7 +107,6 @@ const toggleMobileMenu = () => {
    <script src="/assets/js/script.js"></script>
    <script src="/assets/js/lazyImage.js"></script>
    <script src="/assets/js/telInput.js"></script>
-   <script src="/assets/js/index.js"></script>
 
    <script src="https://cdn.jsdelivr.net/gh/Alaev-Co/snowflakes/dist/Snow.min.js"></script>
    <script>

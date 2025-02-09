@@ -66,8 +66,9 @@
                     <div class="header_info_list_network">
                         <p>Посетите нас:</p>
                         <ul>
-                            <li><a href=""><i class="fa-brands fa-telegram"></i></a></li>
-                            <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://t.me/Abduraxmonovich_Y"><i class="fa-brands fa-telegram"></i></a></li>
+                            <li><a href="https://www.instagram.com/mrx__010101/"><i
+                                        class="fa-brands fa-instagram"></i></a></li>
                             <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
                             <li><a href=""><i class="fa-brands fa-square-whatsapp"></i></a></li>
                         </ul>
@@ -81,11 +82,11 @@
                 <div class="header_nav_right">
                     <ul class="header_nav_right_links">
                         <li><a class="<?php echo ($page == 'index') ? 'active' : ''; ?>" href="/">Главная</a></li>
-                        <li><a class="<?=$page == 'servise' ? 'active' : '';?>" href="">Услуги</a></li>
-                        <li><a class="<?=$page == 'portfolio' ? 'active' : '';?>" href="">Портфолио</a></li>
-                        <li><a class="<?=$page == 'about' ? 'active' : '';?>" href="">О компаний</a></li>
+                        <li><a class="<?=$page == 'servise' ? 'active' : '';?>" href="#servis">Услуги</a></li>
+                        <li><a class="<?=$page == 'portfolio' ? 'active' : '';?>" href="#portfolio">Портфолио</a></li>
+                        <li><a class="<?=$page == 'about' ? 'active' : '';?>" href="#about">О компаний</a></li>
                         <li><a class="<?=$page == 'blogs' ? 'active' : '';?>" href="/pages/blogs.php">Блог</a></li>
-                        <li><a class="<?=$page == 'contacts' ? 'active' : '';?>" href="">Контакты</a></li>
+                        <li><a class="<?=$page == 'contacts' ? 'active' : '';?>" href="#footer">Контакты</a></li>
                     </ul>
                     <div class="header_nav_right_tel">
                         <i class="fa-solid fa-phone"></i>
